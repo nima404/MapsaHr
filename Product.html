@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="./Images/Navbar--Logo.jpeg" type="image/x-i" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.css" rel="stylesheet" />
+    <title>Bootstrap Project</title>
+</head>
+
+<body dir="rtl">
+    <header>
+        <!-- Navbar-->
+        <div class="container-fluid m-0 p-0">
+            <div class="row m-0 p-0 w-100">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 w-100 m-0 p-0">
+                    <div class="container-fluid m-0 p-0">
+                        <div class="row m-0 p-0 w-100">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 w-100 m-0 p-0">
+                                <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+                                    <div class="container-fluid">
+                                        <a class="navbar-brand" href="javascript:void(0)"><img
+                                                src="./Images/Logo 500x500 px.jpeg" height="80px" alt=""></a>
+                                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#mynavbar">
+                                            <span class="navbar-toggler-icon"></span>
+                                        </button>
+                                        <div class="collapse navbar-collapse" id="mynavbar">
+                                            <ul class="navbar-nav m-auto">
+                                                <li class="nav-item p-4">
+                                                    <a class="nav-link" href="Home.html">خانه</a>
+                                                </li>
+                                                <li class="nav-item p-4">
+                                                    <a class="nav-link" href="Product.html">محصولات</a>
+                                                </li>
+                                                <li class="nav-item p-4">
+                                                    <a class="nav-link" href="registery.html">ورود کاربر</a>
+                                                </li>
+                                            </ul>
+                                            <form class="input-group w-auto my-auto d-none d-sm-flex">
+                                                <input autocomplete="off" type="search" class="form-control rounded"
+                                                    placeholder="جست و جو کنید..." style="min-width: 125px;" />
+                                                <span
+                                                    class="input-group-text border-0 d-none d-lg-flex span--Background--Styles"><i
+                                                        class="bi bi-search"></i></span>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Shop Cart -->
+        <div class="container position-fixed top--Style">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div>
+                        <button type="button" class="Cart--Btn"><a href="Product.html" class="text-dark"><i
+                                    class="bi bi-bag-fill"></i>سبد خرید </a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <br><br><br><br><br><br><br><br><br>
+
+    <main>
+        <div class="container-fluid m-0 p-0">
+            <div class="row m-0 p-0 w-100">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 w-100 m-0 p-0">
+                    <!-- <table class="table align-middle mb-0 bg-white w-50 m-auto">
+                        <thead class="bg-light">
+                            <tr>
+                                <th>نام هاست</th>
+                                <th>توضیحات</th>
+                                <th>در دسترس</th>
+                                <th>قیمت</th>
+                                <th>خرید</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img src="./Images/Linux--Img.png" alt="" style="width: 45px; height: 45px"
+                                            class="rounded-circle m-2" />
+                                        <div class="ms-3">
+                                            <p class="fw-bold mb-1">هاست لینوکس</p>
+                                            <p class="text-muted mb-0">LINUX HOSTING</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p class="fw-normal mb-1">با سرویس های میزبانی نیما سرور با خیال راحت به توسعه کسب و
+                                        کارتان
+                                        بپردازید.</p>
+                                </td>
+                                <td>
+                                    <span class="badge badge-success rounded-pill d-inline">Active</span>
+                                </td>
+                                <td>69.000+</td>
+                                <td>
+                                    <button type="button" class="btn btn-link btn-sm btn-rounded">
+                                        مشاهده
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img src="./Images/Windows--Img.png" class="rounded-circle m-2" alt=""
+                                            style="width: 45px; height: 45px" />
+                                        <div class="ms-3">
+                                            <p class="fw-bold mb-1">هاست ویندوز</p>
+                                            <p class="text-muted mb-0">WINDOWS HOSTING</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p class="fw-normal mb-1">با سرویس های میزبانی نیما سرور با خیال راحت به توسعه کسب و
+                                        کارتان
+                                        بپردازید.</p>
+                                </td>
+                                <td>
+                                    <span class="badge badge-primary rounded-pill d-inline">Onboarding</span>
+                                </td>
+                                <td>69.000+</td>
+                                <td>
+                                    <button type="button" class="btn btn-link btn-rounded btn-sm fw-bold"
+                                        data-mdb-ripple-color="dark">
+                                        مشاهده
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img src="./Images/Wordpress--Img.png" class="rounded-circle m-2" alt=""
+                                            style="width: 45px; height: 45px" />
+                                        <div class="ms-3">
+                                            <p class="fw-bold mb-1">هاست وردپرس</p>
+                                            <p class="text-muted mb-0">WORDPRESS HOSTING</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p class="fw-normal mb-1">با سرویس های میزبانی نیما سرور با خیال راحت به توسعه کسب و
+                                        کارتان
+                                        بپردازید.</p>
+                                </td>
+                                <td>
+                                    <span class="badge badge-warning rounded-pill d-inline">Awaiting</span>
+                                </td>
+                                <td>139.000+</td>
+                                <td>
+                                    <button type="button" class="btn btn-link btn-rounded btn-sm fw-bold"
+                                        data-mdb-ripple-color="dark">
+                                        
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table> -->
+
+                    <table class="table table-primary">
+                        <thead class="bg-light">
+                            <tr>
+                                <th>نام هاست</th>
+                                <th>توضیحات</th>
+                                <th>قیمت</th>
+                                <th>خرید</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table-success">
+                                <td>هاست لینوکس</td>
+                                <td>با سرویس های میزبانی نیما سرور با خیال راحت به توسعه کسب و
+                                    کارتان
+                                    بپردازید.</td>
+                                <td>69.000+</td>
+                                <td><button type="button" class="btn btn-danger">مشاهده</button></td>
+                            </tr>
+                            <tr class="table-info">
+                                <td>هاست ویندوز</td>
+                                <td>با سرویس های میزبانی نیما سرور با خیال راحت به توسعه کسب و
+                                    کارتان
+                                    بپردازید.</td>
+                                <td>69.000+</td>
+                                <td><button type="button" class="btn btn-danger">مشاهده</button></td>
+                            </tr>
+                            <tr>
+                                <td>هاست وردپرس</td>
+                                <td>با سرویس های میزبانی نیما سرور با خیال راحت به توسعه کسب و
+                                    کارتان
+                                    بپردازید.</td>
+                                <td>139.000+</td>
+                                <td><button type="button" class="btn btn-danger">مشاهده</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <br><br>
+
+        <!-- Pills navs -->
+
+        <!-- Pills content -->
+
+        <div class="">
+            <div class="">
+                <p class="text-center">
+                    هاست لینوکسی به شما امکان بکارگیری برنامه های گوناگون تحت PHP/MySQL را می دهد تا با اطمینان خاطر
+                    سایتتان را تحت سیستم عامل محبوب لینوکس در دیتاسنتر های منتخب ایران سرور میزبانی کنید.
+                </p>
+            </div>
+            <br>
+            <div class="">
+                <p class="text-center">
+                    با پشتیبانی کامل از MSSQL و ASP و دیگر محصولات مایکروسافت تمامی اجزا سایتتان مانند؛ فایل، دیتابیس و
+                    ایمیل را بر روی هاست ویندوز میزبانی کنید و دغدغه های امنیتی همیشگی هاست های ویندوزی را به فراموشی
+                    بسپارید.
+                </p>
+            </div><br>
+            <div class="">
+                <p class="text-center">
+                    Tهاست وردپرس به شما کمک می کند با سرعتی آتشین از تمام امکانات شگفت انگیز وردپرس بهره ببرید و از
+                    حملات شایع به سایت های وردپرسی در امان باشید.
+                </p>
+            </div>
+        </div>
+        </div>
+        <!-- Pills content -->
+    </main>
+
+    <br><br><br><br><br>
+
+    <footer>
+        <div class="container-fluid m-0 p-0">
+            <div class="row m-0 p-0 w-100">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 w-100 m-0 p-0">
+                    <footer class="text-center text-lg-start bg-light text-muted">
+                        <!-- Section: Social media -->
+                        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                            <!-- Left -->
+                            <div class="me-5 d-none d-lg-block">
+                                <span>در شبکه های اجتماعی با ما در ارتباط باشید :</span>
+                            </div>
+                            <!-- Left -->
+
+                            <!-- Right -->
+                            <div>
+                                <a href="" class="me-4 text-reset">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="" class="me-4 text-reset">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="" class="me-4 text-reset">
+                                    <i class="fab fa-google"></i>
+                                </a>
+                                <a href="" class="me-4 text-reset">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="" class="me-4 text-reset">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="" class="me-4 text-reset">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                            <!-- Right -->
+                        </section>
+                        <!-- Section: Social media -->
+
+                        <!-- Section: Links  -->
+                        <section class="">
+                            <div class="container text-center text-md-start mt-5">
+                                <!-- Grid row -->
+                                <div class="row mt-3">
+                                    <!-- Grid column -->
+                                    <div class="col-md-5 col-lg-4 col-xl-3 mx-auto mb-4">
+                                        <!-- Content -->
+                                        <h6 class="text-uppercase fw-bold mb-4">
+                                            <i class="fas fa-gem me-3"></i>NIMA HOST DOMAIN
+                                        </h6>
+                                        <img src="./Images/Map--Img.gif" height="250px" alt="">
+                                    </div>
+                                    <!-- Grid column -->
+
+                                    <!-- Grid column -->
+                                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                                        <!-- Links -->
+                                        <h6 class="text-uppercase fw-bold mb-4">
+                                            محصولات
+                                        </h6>
+                                        <p>
+                                            <a href="#!" class="text-reset">هاست لینوکس</a>
+                                        </p>
+                                        <p>
+                                            <a href="#!" class="text-reset">هاست ویندوز</a>
+                                        </p>
+                                        <p>
+                                            <a href="#!" class="text-reset">هاست شاپ</a>
+                                        </p>
+                                    </div>
+                                    <!-- Grid column -->
+
+                                    <!-- Grid column -->
+                                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                                        <!-- Links -->
+                                        <h6 class="text-uppercase fw-bold mb-4">
+                                            دسترسی سریع تر
+                                        </h6>
+                                        <p>
+                                            <a href="#!" class="text-reset">خانه</a>
+                                        </p>
+                                        <p>
+                                            <a href="#!" class="text-reset">محصولات</a>
+                                        </p>
+                                        <p>
+                                            <a href="#!" class="text-reset">تماس با ما</a>
+                                        </p>
+                                    </div>
+                                    <!-- Grid column -->
+
+                                    <!-- Grid column -->
+                                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                                        <!-- Links -->
+                                        <h6 class="text-uppercase fw-bold mb-4">
+                                            تماس با ما
+                                        </h6>
+                                        <p><i class="fas fa-home me-3"></i>Tehran - Shahr Rey - Dolat Abad</p>
+                                        <p>
+                                            <i class="fas fa-envelope me-3"></i>
+                                            Nima.error404@gmail.com
+                                        </p>
+                                        <p><i class="fas fa-phone me-3"></i>0919-018-6083</p>
+                                        <p><i class="fas fa-print me-3"></i> 0902-328-4000</p>
+                                    </div>
+                                    <!-- Grid column -->
+                                </div>
+                                <!-- Grid row -->
+                            </div>
+                        </section>
+                        <!-- Section: Links  -->
+
+                        <!-- Copyright -->
+                        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                            <p class="text-reset fw-bold">تمامی حقوق این سایت محفوظ میباشد © 2021 Copyright</p>
+                        </div>
+                        <!-- Copyright -->
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
